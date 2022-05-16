@@ -4,12 +4,9 @@ description: >
 ---
 # Mark Theis
 
-- [Introduction](#introduction)
-- [Background](#background)
-
 ## Introduction
 
-Hi 👋🏼, thanks for stopping by! I'm Mark, a first year graduate student at UC Berkeley working with the Netsys Lab where I am advised by Scott Shenker. I find interest in many facets of high tech, but have a particular curiosity when it comes to computer networks and hardware, operating systems, and network security. Non-academically, I have a passion for cars, especially with the new and more sustainable approaches many manufacturers are picking up today, and hobby photography. 
+Hi 👋🏼, thanks for stopping by! I'm Mark, a first year graduate student at UC Berkeley working with the Netsys Lab where I am advised by Scott Shenker. I find interest in many facets of high tech, but have a particular curiosity when it comes to computer networks and hardware, operating systems, and network security. Non-academically, I have find an interest in cars, especially with the new and more sustainable approaches many manufacturers are picking up today, and hobby photography. 
 
 ## Background
 

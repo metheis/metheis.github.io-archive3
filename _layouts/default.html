@@ -57,13 +57,6 @@
         {% if previous_page %}<a class="content__nav-link content__nav-link--prev" href="{{ previous_page.url | prepend: site.baseurl }}">{{ previous_page.text }}</a>{% endif %}
         {% if next_page %}<a class="content__nav-link content__nav-link--next" href="{{ next_page.url | prepend: site.baseurl }}">{{ next_page.text }}</a>{% endif %}
       </div>
-      <div class="content__meta">
-        <p>
-          Want to improve the documentation on this page?
-          <a href="{{ site.git.repository_url }}/issues/new">Report an error</a> or
-          <a href="{{ site.git.repository_url }}/edit/master/{{ page.path }}">suggest changes</a>.
-        </p>
-      </div>
     </div>
     {% include footer.html %}
   </body>
