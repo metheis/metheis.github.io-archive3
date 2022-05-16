@@ -13,57 +13,16 @@ git:
 
 # Navigation
 nav:
-  Users:
+  About:
     - text: Introduction
       url: /
       available: true
     - text: Academic Research
       url: /research
       available: true
-    - text: Getting started
-      url: /start
-      available: true
-    - text: User management
-      url: /user-management
-      available: true
-    - text: Configuration
-      url: /configuration
-      available: true
-    - text: Targeting players
-      url: /targeting
-      available: true
-    - text: Backup and restore
-      url: /backup-and-restore
-      available: true
-    - text: Reset to defaults
-      url: /reset
-      available: true
-    - text: Tips and tricks
-      url: /tips-and-tricks
-      available: true
-    - text: Third-party modules
-      url: /third-party-modules
-      available: true
-  Developers:
-    - text: SVN version
-      url: /svn-version
-      available: true
-    - text: ULX module
-      url: /ulx-module
-      available: true
-    - text: Hooks and functions
-      url: /hooks-and-functions
-    - text: Custom module
-      url: /custom-module
-    - text: Custom command
-      url: /custom-command
-    - text: Custom keyword
-      url: /custom-keyword
-    - text: Custom XGUI tab
-      url: /custom-xgui-tab
   Resources:
-    - text: ULX commands
-      url: /ulx-commands
+    - text: External Links
+      url: /external-links
       available: true
 
 # Defaults
