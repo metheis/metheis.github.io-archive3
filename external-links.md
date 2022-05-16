@@ -1,6 +1,6 @@
 ---
 ---
-# ULX commands
+# External Links
 
 A list of all the default ULX commands.
 
