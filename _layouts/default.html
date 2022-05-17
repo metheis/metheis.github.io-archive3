@@ -27,7 +27,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% if page.description %}<meta name="description" content="{{ page.description | strip_newlines }}">{% endif %}
-    <title>{{ current_page.text }} - {{ site.title }}</title>
+    <title>{{ current_page.title }} - {{ site.title }}</title>
     <link rel="icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <script defer src="{{ "/js/docsearch-2.6.3.min.js" | prepend: site.baseurl }}"></script>
@@ -53,8 +53,8 @@
         {{ content }}
       </main>
       <div class="content__nav">
-        {% if previous_page %}<a class="content__nav-link content__nav-link--prev" href="{{ previous_page.url | prepend: site.baseurl }}">{{ previous_page.text }}</a>{% endif %}
-        {% if next_page %}<a class="content__nav-link content__nav-link--next" href="{{ next_page.url | prepend: site.baseurl }}">{{ next_page.text }}</a>{% endif %}
+        {% if page.previous.url %}<a class="content__nav-link content__nav-link--prev" href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a>{% endif %}
+        {% if page.next.url %}<a class="content__nav-link content__nav-link--next" href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a>{% endif %}
       </div>
     </div>
     {% include footer.html %}
