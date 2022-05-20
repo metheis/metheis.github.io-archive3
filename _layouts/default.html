@@ -27,7 +27,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% if page.description %}<meta name="description" content="{{ page.description | strip_newlines }}">{% endif %}
-    <title>{{ current_page.title }} - {{ site.title }}</title>
+    <title>{{ current_page.text }} - {{ site.title }}</title>
     <link rel="icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <script defer src="{{ "/js/docsearch-2.6.3.min.js" | prepend: site.baseurl }}"></script>
