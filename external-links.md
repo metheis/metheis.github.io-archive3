@@ -3,6 +3,8 @@ title: External Links
 ---
 # External Links and Projects
 
+##
+
 - [Mountain Dulcimer Project]({{ site.url }}/dulcimer)
 - [Art Projects]({{ site.url }}/art)
 - [Blog]({{ site.url }}/blog)
