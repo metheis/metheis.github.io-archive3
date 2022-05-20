@@ -20,6 +20,9 @@ nav:
     - text: Academic Research
       url: /research/
       available: true
+    - text: Interests and Skills
+      url: /interests/
+      available: true
   Resources:
     - text: External Links
       url: /external-links/
