@@ -53,8 +53,8 @@
         {{ content }}
       </main>
       <div class="content__nav">
-        {% if page.previous.url %}<a class="content__nav-link content__nav-link--prev" href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a>{% endif %}
-        {% if page.next.url %}<a class="content__nav-link content__nav-link--next" href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a>{% endif %}
+        {% if previous_page %}<a class="content__nav-link content__nav-link--prev" href="{{ previous_page.url | prepend: site.baseurl }}">{{ page.previous.title }}</a>{% endif %}
+        {% if next_page %}<a class="content__nav-link content__nav-link--next" href="{{ next_page.url | prepend: site.baseurl }}">{{ page.next.title }}</a>{% endif %}
       </div>
     </div>
     {% include footer.html %}
