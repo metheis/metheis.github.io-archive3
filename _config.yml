@@ -18,11 +18,11 @@ nav:
       url: /
       available: true
     - text: Academic Research
-      url: /research
+      url: /research/
       available: true
   Resources:
     - text: External Links
-      url: /external-links
+      url: /external-links/
       available: true
 
 # Defaults
