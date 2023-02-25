@@ -25,7 +25,7 @@ nav:
       available: true
   Resources:
     - text: Blog
-      url: {{ site.url }}/blog
+      url: /blog/
       available: true
     - text: External Links
       url: /external-links/
