@@ -24,6 +24,9 @@ nav:
       url: /interests/
       available: true
   Resources:
+    - blog: Blog
+      url: {{ site.url }}/blog
+      available: true
     - text: External Links
       url: /external-links/
       available: true

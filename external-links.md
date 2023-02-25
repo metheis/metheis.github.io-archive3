@@ -10,7 +10,6 @@ title: External Links
 
 - [Mountain Dulcimer Project]({{ site.url }}/dulcimer)
 - [Art Projects]({{ site.url }}/art)
-- [Blog]({{ site.url }}/blog)
 - [RISC-V Reference]({{ site.url }}/riscv)
 
 ## External Sites
